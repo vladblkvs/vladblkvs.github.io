@@ -6,6 +6,7 @@
 * [Kekstagram](https://github.com/vladblkvs/19362-kekstagram-17).
 * [Yamaha](https://github.com/vladblkvs/Yamaha).
 * [SalmonBellies](https://github.com/vladblkvs/SalmonBellies).
+* [Event Feed](https://github.com/vladblkvs/EventFeed).
 
 ---
 
