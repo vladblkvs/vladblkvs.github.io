@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Трехуровневое меню</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="main-nav">
+      <button class="menu-btn">
+        <span class="menu-btn-label menu-open">
+          <span class="visually-hidden">Открыть меню</span>
+          <img src="img/icon-menu.svg" width="32" height="32" alt="Переключатель главного меню">
+        </span>
+        <span class="menu-btn-label menu-close">
+          <span class="visually-hidden">Закрыть меню</span>
+          <img src="img/icon-close.svg" width="32" height="32" alt="Переключатель главного меню">
+        </span>
+      </button>
+      <ul class="nav-list nav-list--main">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Элемент 1</a>
+        </li>
+        <li class="nav-item menu-lvl2">
+          <a class="nav-link" href="#">Элемент 2</a>
+          <button class="submenu-btn">
+            <img src="img/icon-arrow.svg" width="12" height="7" alt="Переключатель меню">
+            <span class="submenu-open visually-hidden">
+              Раскрыть меню второго уровня
+            </span>
+            <span class="submenu-close visually-hidden">
+              Закрыть меню второго уровня
+            </span>
+          </button>
+          <ul class="nav-list nav-list-lvl2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Элемент 2.1</a>
+            </li>
+            <li class="nav-item menu-lvl3">
+              <a class="nav-link" href="#">Элемент 2.2</a>
+              <button class="submenu-btn">
+                <img src="img/icon-arrow.svg" width="12" height="7" alt="Переключатель меню">
+                <span class="submenu-open">
+                  <span class="visually-hidden">Раскрыть меню третьего уровня</span>
+                </span>
+                <span class="submenu-close">
+                  <span class="visually-hidden">Закрыть меню третьего уровня</span>
+                </span>
+              </button>
+              <ul class="nav-list nav-list-lvl3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Элемент 2.2.1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Элемент 2.2.2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Элемент 2.2.3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Элемент 2.3</a>
+            </li>
+            <li class="nav-item menu-lvl3">
+              <a class="nav-link" href="#">Элемент 2.4</a>
+              <button class="submenu-btn">
+                <img src="img/icon-arrow.svg" width="12" height="7" alt="Переключатель меню">
+                <span class="submenu-open">
+                  <span class="visually-hidden">Раскрыть меню третьего уровня</span>
+                </span>
+                <span class="submenu-close">
+                  <span class="visually-hidden">Закрыть меню третьего уровня</span>
+                </span>
+              </button>
+              <ul class="nav-list nav-list-lvl3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Элемент 2.4.1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Элемент 2.4.2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Элемент 2.4.3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Элемент 2.4.4</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Элемент 2.4.5</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Элемент 2.4.6</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Элемент 2.4.7</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Элемент 2.5</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Элемент 2.6</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Элемент 3</a>
+        </li>
+        <li class="nav-item menu-lvl2">
+          <a class="nav-link" href="#">Элемент 4</a>
+          <button class="submenu-btn">
+            <img src="img/icon-arrow.svg" width="12" height="7" alt="Переключатель меню">
+            <span class="submenu-open">
+              <span class="visually-hidden">Раскрыть меню второго уровня</span>
+            </span>
+            <span class="submenu-close">
+              <span class="visually-hidden">Закрыть меню второго уровня</span>
+            </span>
+          </button>
+          <ul class="nav-list nav-list-lvl2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Элемент 4.1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Элемент 4.2</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Элемент 5</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Элемент 6</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Placeholder -->
+  <main class="page-main">
+    <div class="container">
+      <h1 class="title">Lorem ipsum</h1>
+      <p class="lorem">
+        <img class="figure" src="img/kitten.jpg" width="512" height="512" alt="Kitten">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit asperiores, excepturi reiciendis deserunt facere consequuntur quos illum expedita? Assumenda consequatur et voluptas similique sunt culpa, qui in eligendi delectus ex!
+        Id perspiciatis, assumenda voluptates reprehenderit ipsa cumque maxime fugit ipsam praesentium eaque. Provident ad, quia veniam eius placeat omnis culpa enim rerum veritatis praesentium odio facere, aspernatur ratione alias. Reiciendis!
+        Mollitia porro quisquam expedita ipsum vitae suscipit iste totam laboriosam ullam repellat, nisi corporis quas. Nam molestias esse soluta nesciunt quis ut libero labore voluptas pariatur rerum, consectetur minima quibusdam?
+        Harum accusamus cupiditate deserunt dolor blanditiis ipsa possimus facilis numquam repellat commodi vitae, inventore doloribus doloremque laboriosam sunt quod veniam quo id quis fugit velit fuga, modi beatae voluptate. Voluptate!
+        Accusamus nemo maxime sunt esse expedita. Sapiente asperiores ipsum, repellat quaerat similique velit id, corporis amet eius consequatur eos aliquam earum qui debitis eligendi quisquam totam molestiae facere assumenda dolor!
+        Quos repellat obcaecati debitis rem atque sunt incidunt molestias iste cum facilis! Modi quae sed minima? Porro, explicabo. Quasi nostrum quibusdam inventore ad possimus incidunt velit nisi sunt commodi obcaecati.
+        Consequuntur error temporibus quo iure consectetur odio beatae doloremque unde sequi dolor magnam maiores at natus, ab assumenda iste laudantium dolores blanditiis quas quae? Dolorem facere ea minima a sapiente?
+        Iusto, laboriosam sequi dolore eum qui rem. Inventore excepturi itaque molestiae nemo reprehenderit, dolorem rerum magni vitae velit, totam repellat. Molestias necessitatibus reiciendis animi asperiores earum distinctio nulla, rerum harum.
+        Architecto eius quam est. Natus tempora exercitationem facilis enim, sequi consectetur, dolore vitae, labore sint in totam. Rerum, vel totam molestias sed, inventore, velit illum expedita suscipit sit accusamus quidem.
+        Tempore assumenda voluptate voluptatibus distinctio. Nihil nobis assumenda dicta cumque, hic, sunt fugit explicabo voluptate placeat debitis ut nulla quos omnis quo, aliquam dolore eligendi perspiciatis laboriosam repellat. Rerum, quia.
+      </p>
+    </div>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
